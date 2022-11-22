@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'EB Garamond', serif;
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+  position: relative;
+  left: px;
+
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.icones {
+  position: relative;
+  left: 1100px;
+  top: -60px;
+}
+.icones-2 {
+  position: relative;
+  left: 1150px;
+  top: -105px;
+}
+.background .Meio{
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  max-width: 100%;
+
+  background: linear-gradient(90deg, #8f0606 0%, #8f0606 100%);
+}
+.titulo1sabor {
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  position: fixed;
+  background: transparent;
+  transition: all 0.35s ease;
+  background-color: #fff;
+  padding: 14px 14%;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 1rem;
+  position: relative;
+  right: 180px;
+}
+
+.cabeçalho-link {
+  display: flex;
+  gap: 3rem;
+  position: relative;
+  left: 350px;
+}
+
+.cabeçalho-link a {
+  color: #000;
+  font-weight: 700;
+  transition: 0.3s;
+  position: relative;
+  right: 20px;
+}
+
+.cabeçalho-link a:hover {
+  position: relative;
+  right: 0px;
+  color: #93a391;
+}
+
+.icon span {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.icon span:hover {
+  color: #93a391;
+}
+
+.Meio {
+  padding: 7rem 0 0 8.5rem;
+  line-height: 4rem;
+}
+
+.Meio h1 {
+  font-size: 4rem;
+  text-align: center;
+  top: -10px;
+  color: #fff;
+  right: 70px;
+}
